@@ -1,0 +1,52 @@
+body {
+  background: #278588;
+  font-family: "Kumbh Sans";
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-content__container {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 500px;
+  border-radius: 20px;
+  background: white;
+}
+
+.main-content__top-image {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.main-content__main-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  align-self: center;
+  margin-top: 120px;
+}
+
+.main-content__victor {
+  display: flex;
+  height: 200px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-content__stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 1px solid grey;
+}
